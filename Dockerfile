@@ -2,6 +2,8 @@ FROM debian
 
 ADD https://github.com/Landoop/coyote/releases/download/v1.2/coyote-1.2-linux-amd64 /usr/local/bin
 
+RUN chmod 755 /usr/local/bin/coyote-1.2-linux-amd64
+
 RUN apt-get update && apt-get -y install curl apt-transport-https \
                                                    ca-certificates \
                                                    curl \
