@@ -1,0 +1,34 @@
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+src/main/resources/output_data/
+
+# VSCode
+ensime-langserver.log
+pc.stdout.log
+
+# Sonarqube
+.sonar/
+
+coyote.html
+.config/
+project/project/
+src/main/java/
+src/main/scala-2.11/
+src/main/scala-2.12/
+src/test/java/
+src/test/scala-2.11/
+src/test/scala-2.12/
